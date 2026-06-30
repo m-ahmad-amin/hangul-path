@@ -13,6 +13,8 @@ A full-stack MERN Korean language learning platform | A structured path from Han
 - **Progress tracking:** visual progress summary of completed days and quiz scores
 - **Reset anytime:** restart the full 30-day course from Day 1 whenever you want a clean slate
 
+![key-feautures](https://res.cloudinary.com/dzzrxqiho/image/upload/v1782848599/Group_4_4_x3vaex.png)
+
 ## Tech Stack
 
 - **Frontend:** React, Vite, Tailwind CSS, React Router, Recharts
