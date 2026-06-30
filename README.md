@@ -1,6 +1,7 @@
 # Hangul Path
 
 A full-stack MERN Korean language learning platform | A structured 30-day course with daily lessons, quizzes, and AI tutor.
+**[▶ Live Demo](https://hangul-path.netlify.app/)** 
 
 ## Tech Stack
 
