@@ -89,7 +89,7 @@ export default function Dashboard() {
           <h1 className="text-2xl sm:text-3xl font-bold mb-1">
             Welcome back, {user.name}
           </h1>
-          <p className="text-gray-400">Keep up the momentum — you&apos;re doing great.</p>
+          <p className="text-gray-400">Keep up the momentum. You&apos;re doing great.</p>
         </div>
 
         <div className="mb-8">

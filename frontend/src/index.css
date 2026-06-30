@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-navy text-white font-sans antialiased;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-gold hover:bg-gold-light text-navy font-semibold px-6 py-3 rounded-lg transition-all duration-200 hover:shadow-lg hover:shadow-gold/20;
+  }
+
+  .btn-secondary {
+    @apply border border-gold/40 text-gold hover:bg-gold/10 font-medium px-6 py-3 rounded-lg transition-all duration-200;
+  }
+
+  .card {
+    @apply bg-navy-light border border-gray-800 rounded-xl p-6;
+  }
+
+  .input-field {
+    @apply w-full bg-navy border border-gray-700 rounded-lg px-4 py-3 text-white placeholder-gray-500 focus:outline-none focus:border-gold focus:ring-1 focus:ring-gold transition-all duration-200;
+  }
+
+  .webtoon-panel {
+    @apply bg-panel rounded-lg border-2 border-gray-300 shadow-lg relative overflow-hidden;
+    background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23e8e8e8' fill-opacity='0.4'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  }
+
+  .webtoon-panel-alt {
+    @apply bg-panel-alt;
+  }
+}
+
+.page-enter {
+  animation: fadeIn 0.4s ease-out;
+}
